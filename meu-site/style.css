@@ -1,0 +1,79 @@
+html {
+    font-family: Garamond, serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    padding: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+div.list {
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(83, 123, 197);
+}
+
+a:hover {
+    color: rgba(83, 123, 197, 0.596);
+}
+
+a:active {
+    color: rgb(25, 0, 253);
+}
+
+p.text {
+    color: rgb(78, 78, 78);
+}
+
+body {
+    background-image: url('imagens-icones/fundo.jpg')
+    
+}
+
+.container {
+    border: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 1100px;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+}
+
